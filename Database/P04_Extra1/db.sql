@@ -142,5 +142,3 @@ FROM
         GROUP BY
             subject
     ) AS avg_scores ON r.subject = avg_scores.subject;
-
-    test
